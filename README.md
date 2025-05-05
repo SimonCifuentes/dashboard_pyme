@@ -1,40 +1,42 @@
-# 🧭 Dashboard de Inteligencia de Negocios para PYMES
+# Dashboard PYME
 
-Este proyecto es un **Prototipo Mínimo Navegable (PMN)** de una aplicación web diseñada para pequeñas y medianas empresas (PYMES) con el fin de visualizar indicadores de negocio en tiempo real.
+Aplicación de gestión para una pequeña empresa, con métricas de ventas, clientes, configuración de usuario y más.
 
-## 🚀 Objetivo
+## 🚀 Funcionalidades
 
-Proveer una interfaz visual clara e intuitiva para monitorear indicadores clave del negocio, como ventas, clientes y productos más vendidos. El prototipo está enfocado en simular la estructura visual de una futura aplicación completa.
+- Login simulado
+- Dashboard con indicadores (ventas, ticket promedio, etc.)
+- Tabla de historial de ventas recientes
+- Listado de clientes registrados con acciones básicas
+- Formulario de configuración de usuario
+- Gráfico de ventas mensuales (Chart.js)
 
-## 🧱 Tecnologías Utilizadas
+## 🛠️ Tecnologías utilizadas
 
-- ⚛️ **React + Vite** – Framework base para frontend
-- 🌐 **React Router** – Navegación entre pantallas
-- 🎨 **Bootstrap** – Estilos rápidos y responsivos
-- 📊 **Chart.js + react-chartjs-2** – Visualización de datos simulados
+- React + React Router
+- Bootstrap 5
+- Chart.js
+- Datos simulados con arreglos locales
 
-## 📄 Estructura de Vistas
-
-El prototipo incluye navegación funcional entre las siguientes vistas:
-
-| Vista            | Descripción |
-|------------------|-------------|
-| 🔐 **Login**      | Pantalla inicial con formulario de acceso simulado |
-| 📊 **Dashboard**  | Tarjetas de indicadores y tabla de historial |
-| 📈 **Detalle**     | Gráfico de ventas por mes con botones simulados |
-| 👥 **Clientes**    | Tabla de clientes, compras y acciones simuladas |
-| ⚙️ **Configuración** | Formulario de perfil editable |
-
-## 🎯 Características Simuladas
-
-- Navegación completa entre vistas
-- Datos e interfaces visuales realistas (sin backend aún)
-- Interfaz responsiva y organizada
-- Aplicación de principios de usabilidad (reglas de oro de Shneiderman)
-
-## 📦 Cómo Ejecutar
+## 🧪 Instrucciones de uso
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/dashboard_pyme.git
+   git clone https://github.com/SimonCifuentes/dashboard_pyme.git
    cd dashboard_pyme
+   npm install
+   npm run dev
+   ```
+
+2. Abre el navegador en `http://localhost:5173` (o según indique la consola).
+
+## 🌐 Despliegue
+
+🔗 [Ver app en Vercel](https://dashboard-pyme.vercel.app) *(link provisional, reemplazar al desplegar)*
+
+## 📌 Estado del desarrollo
+
+- ✅ Funciones principales listas
+- 🔜 Guardado de configuración con localStorage
+- 🔜 Validaciones de formularios
+- 🔜 Despliegue en Vercel
